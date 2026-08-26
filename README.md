@@ -1,3 +1,3 @@
 # Physics-in-real-life
 
-Here we are gonna create physics phenoms with the help of programming 
+Here we are gonna create physics phenoms with the help of programming by Coding.
