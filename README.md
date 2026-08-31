@@ -10,4 +10,4 @@ I think the significant difference between that will be in the planning of the p
 
 Till then I don't know what happened 
 
-It's some time now that I say I will do this but I don't 
+It's some time now that I say I will do this but I don't , at this point I think I'm very lazy 
