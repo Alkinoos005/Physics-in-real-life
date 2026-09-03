@@ -27,5 +27,14 @@ In an idealized world of Uniform Linear Motion (ULM), we assume the ball moves a
 
 <img width="510" height="512" alt="image" src="https://github.com/user-attachments/assets/006f8ed8-2c81-46a9-9c03-baa00a96b77b" />
 
+Visualizing the vertical displacement and velocity vectors during descent.
+
+Independence of Axes: We treat $x$ (horizontal) and $y$ (vertical) motion separately. Unless an external force acts horizontally, the ball continues its sideways journey at a constant rate. This principle, known as the Independence of Perpendicular Motions, was first clearly articulated by Galileo and forms the foundation of projectile motion analysis.
+Velocity Inversion: The moment of impact is modeled by multiplying the vertical velocity by $-1$. This represents a perfect, instantaneous change in direction. While physically unrealistic (real collisions take finite time), this approximation works well when the collision duration is much shorter than the time between simulation frames.
+The Overlap Problem: In digital frames, a ball might move 'into' the floor between two frames. We must perform a Positional Correction (or 'teleportation') to reset the ball exactly at the boundary surface to prevent visual glitching or 'sticking'. This is one of the fundamental challenges in discrete-time simulation.
+Time Discretization: From Continuous to Frame-Based
+Real physics operates continuously—a ball's position changes smoothly through every infinitesimal moment. Computer simulations, however, must approximate this continuity using discrete time steps, often called frames or ticks. If your game runs at 60 frames per second, physics updates occur every $1/60 \approx 0.0167$ seconds. This fundamental constraint shapes how we implement physics algorithms.
+
+The choice of time step ($\Delta t$) creates a tradeoff. Smaller time steps yield more accurate simulations but require more computational power. Larger time steps are faster but can miss collisions or produce unstable behavior. Most game engines use fixed time steps (constant $\Delta t$) for physics while allowing variable frame rates for rendering, preventing physics from becoming frame-rate dependent.
 
 
