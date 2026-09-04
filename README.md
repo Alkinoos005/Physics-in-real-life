@@ -97,4 +97,5 @@ Advanced Topic: Maximum Height and Range
 For a projectile launched at angle \theta with initial speed v_0, the maximum height reached is h_{max} = \frac{(v_0 \sin\theta)^2}{2g}, occurring at time t_{peak} = \frac{v_0 \sin\theta}{g}$. The total range (horizontal distance) is R = \frac{v_0^2 \sin(2\theta)}{g}, which is maximized at $\theta = 45°$. These formulas come from setting $v_y = 0$ and y = 0 respectively in the kinematic equations.
 
 
+https://physicshub.github.io/simulations/BouncingBall is the inspo
 
