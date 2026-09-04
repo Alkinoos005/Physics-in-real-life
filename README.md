@@ -7,7 +7,7 @@ The structure of  the first problem will be something on the more simple side.
 The depiction will be very pleasant and eyecathcing.
 
 
-I think I'm getting the upper hand of it
+I think I'm getting the upper hand of it.Slowly but surely I am getting better at this!!!
 
 Phase 1: Observation and Basic Kinematics (Introductory Level)
 To a beginner, a bouncing ball serves as a perfect introduction to Kinematics—the branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion. In this stage, we focus on tracking state changes over time using two primary vectors: Position ($\vec{s}$) and Velocity ($\vec{v}$).
