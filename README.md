@@ -99,3 +99,5 @@ For a projectile launched at angle \theta with initial speed v_0, the maximum he
 
 https://physicshub.github.io/simulations/BouncingBall is the inspiration behind that is my love for physics
 
+
+The progress got stuck Sorry!!!
